@@ -1,0 +1,82 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --hero-bcg-color: #2f303a;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;;
+  font-style: normal; 
+  font-weight: 400;
+
+  color: var(--primary-text-color);
+  background-color: var(--primary-white-color);
+}
+.logo {
+  color: #000000;
+}
+.list {
+  list-style: none;
+}
+/* site-nav */
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--title-text-color);
+  background-color:var(--accent-color);
+}
+/* Hero */
+.hero-title {
+  color: var(--primary-white-color);
+  background-color:var(--hero-bcg-color);
+}
+/* Section */
+.section-title {
+  color: var(--title-text-color);
+}
+/* Feature-list */
+.feature-list,
+.team-list {
+  list-style: none;
+}
+.feature-list .title {
+  color: var(--title-text-color);
+}
+/* Team */
+.member-name {
+    color: var(--title-text-color);
+
+}
+
+/* Button */
+.button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+.button.primary {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  border-color: var(--primary-white-color);
+}
+
+.button.secondary {
+  color: var(--accent-color);
+  background-color: var(--primary-white-color)
+  border-color: var(var(--accent-color));
+}
+
+/* color palette */
+/* logo black  #000000 */
+/* headers, nav text color #212121 */
+/* text color #757575  */
+/*  white #ffffff  */
+/* acent color #2196F3  */
