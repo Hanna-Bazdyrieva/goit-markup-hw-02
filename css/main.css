@@ -1,0 +1,29 @@
+
+.link {
+    color: var(--primary-text-color);
+  }
+/* Hero */
+.hero {
+    background-color:var(--hero-bcg-color);
+  }
+.hero-title {
+  color: var(--primary-white-color);
+  background-color: var(--hero-bcg-color);
+}
+/* Section */
+.section-title {
+  color: var(--title-text-color);
+}
+/* Feature-list */
+.feature-list,
+.team-list,
+.list {
+  list-style: none;
+}
+.feature-list .title {
+  color: var(--title-text-color);
+}
+/* Team */
+.member-name {
+  color: var(--title-text-color);
+}

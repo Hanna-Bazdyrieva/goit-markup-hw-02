@@ -1,0 +1,11 @@
+header a,
+main a {
+    color: var(--title-text-color);
+    text-decoration: none;
+}
+.project-title {
+    color: var(--title-text-color);
+}
+p {
+    color: var(--primary-text-color);
+}

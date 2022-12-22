@@ -10,13 +10,16 @@ body {
   font-family: 'Montserrat', sans-serif;;
   font-style: normal; 
   font-weight: 400;
-
   color: var(--primary-text-color);
   background-color: var(--primary-white-color);
+}
+body .link {
+  text-decoration: none;
 }
 /* Logo */
 .logo {
   color: var(--accent-color);
+  text-decoration: none;
 }
 header .studio {
   color: var(--title-text-color);
@@ -41,40 +44,10 @@ footer .studio {
 }
 
 /* contacts links */
-.link {
-  color: var(--primary-text-color);
-}
+
 .link:focus,
 .link:hover {
   color: var(--accent-color);
-}
-
-
-/* Hero */
-.hero {
-  background-color:var(--hero-bcg-color);
-}
-.hero-title {
-  color: var(--primary-white-color);
-  background-color:var(--hero-bcg-color);
-}
-/* Section */
-.section-title {
-  color: var(--title-text-color);
-}
-/* Feature-list */
-.feature-list,
-.team-list,
-.list {
-  list-style: none;
-}
-.feature-list .title {
-  color: var(--title-text-color);
-}
-/* Team */
-.member-name {
-    color: var(--title-text-color);
-
 }
 
 /* Button */
@@ -100,9 +73,14 @@ footer .studio {
   background-color: var(--hero-bcg-color);
 }
 
-.address {
+.address-link {
   color: var(--primary-white-color);
+  text-decoration: none;
 }
-footer .link {
+.footer .link {
   color: rgba(255, 255, 255, 0.6);
+}
+.footer .link:hover,
+.footer .link:focus {
+  color: var(--accent-color);
 }
