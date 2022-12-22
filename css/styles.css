@@ -14,8 +14,15 @@ body {
   color: var(--primary-text-color);
   background-color: var(--primary-white-color);
 }
+/* Logo */
 .logo {
-  color: #000000;
+  color: var(--accent-color);
+}
+header .studio {
+  color: var(--title-text-color);
+}
+footer .studio {
+  color: var(--primary-white-color);
 }
 .list {
   list-style: none;
@@ -28,12 +35,25 @@ body {
 .site-nav .link:focus {
   color: var(--accent-color);
 }
-
 .site-nav .link.current {
-  color: var(--title-text-color);
-  background-color:var(--accent-color);
+  color: var(--accent-color);
+
 }
+
+/* contacts links */
+.link {
+  color: var(--primary-text-color);
+}
+.link:focus,
+.link:hover {
+  color: var(--accent-color);
+}
+
+
 /* Hero */
+.hero {
+  background-color:var(--hero-bcg-color);
+}
 .hero-title {
   color: var(--primary-white-color);
   background-color:var(--hero-bcg-color);
@@ -44,7 +64,8 @@ body {
 }
 /* Feature-list */
 .feature-list,
-.team-list {
+.team-list,
+.list {
   list-style: none;
 }
 .feature-list .title {
@@ -70,13 +91,18 @@ body {
 
 .button.secondary {
   color: var(--accent-color);
-  background-color: var(--primary-white-color)
-  border-color: var(var(--accent-color));
+  background-color: var(--primary-white-color);
+  border-color: var(--accent-color);
 }
 
-/* color palette */
-/* logo black  #000000 */
-/* headers, nav text color #212121 */
-/* text color #757575  */
-/*  white #ffffff  */
-/* acent color #2196F3  */
+/* Footer */
+.footer {
+  background-color: var(--hero-bcg-color);
+}
+
+.address {
+  color: var(--primary-white-color);
+}
+footer .link {
+  color: rgba(255, 255, 255, 0.6);
+}
